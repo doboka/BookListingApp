@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+    <EditText
+        android:id="@+id/type_field_author"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="@string/search_for_author"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/type_field_title"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="@string/search_for_title"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/search"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
